@@ -13,7 +13,7 @@ public class TodoEntity {
     private Long id;
     private String title;
     private Boolean completed;
-
+    
     @ManyToOne
     @JoinColumn(name = "user_id")
     private UserEntity user;
